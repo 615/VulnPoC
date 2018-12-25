@@ -1,13 +1,13 @@
 #!/usr/bin/env python
 # -*- coding: utf_8 -*-
 
+import argparse
 import sys
-import os,re
-from settings import Os_win,Version
+
 from common import banner
 from options import initoptions
-import argparse
 
+from lib.settings import Os_win
 
 sys.dont_write_bytecode = True
 
